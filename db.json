@@ -1,69 +1,31 @@
-{ "orders":  [{
-  "idZZ": 1,
-  "numerZZ": "TEST/1",
-  "cntractorId": 51,
-  "position": [{
- "articleId": 40,
-  "quantity": 500,
-  "price": 15,
-  "uomId": "szt"},
 {
- "articleId": 41,
-  "quantity": 1500,
-  "price": 10,
-  "uomId": "szt"}
-  ]
-},
-{
-  "idZZ": 2,
-  "numerZZ": "TEST/2",
-  "cntractorId": 49,
-  "position": [{
- "articleId": 90,
-  "quantity": 300,
-  "price": 16,
-  "uomId": "szt"},
-{
- "articleId": 70,
-  "quantity": 400,
-  "price": 8,
-  "uomId": "szt"},
-{
- "articleId": 71,
-  "quantity": 500,
-  "price": 12,
-  "uomId": "szt"},
-{
- "articleId": 72,
-  "quantity": 600,
-  "price": 4,
-  "uomId": "szt"},
-{
- "articleId": 73,
-  "quantity": 700,
-  "price": 18,
-  "uomId": "szt"}
-  ]
-},
-{
-  "idZZ": 3,
-  "numerZZ": "TEST/3",
-  "cntractorId": 41,
-  "position": [{
- "articleId": 87,
-  "quantity": 2200,
-  "price": 9,
-  "uomId": "szt"},
-{
- "articleId": 88,
-  "quantity": 400,
-  "price": 18,
-  "uomId": "szt"},
-{
- "articleId": 89,
-  "quantity": 400,
-  "price": 21,
-  "uomId": "szt"}
-  ]
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
-] }
